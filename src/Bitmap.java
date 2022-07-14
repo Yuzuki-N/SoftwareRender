@@ -35,4 +35,12 @@ public class Bitmap {
             dest[i * 3 + 2] = m_components[i * 4 + 3];
         }
     }
+
+    public int GetWidth() {
+        return m_width;
+    }
+
+    public int GetHeight() {
+        return m_height;
+    }
 }
